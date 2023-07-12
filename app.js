@@ -14,8 +14,8 @@ app.use(express.static('public'));
 
 app.get('/',  (req, res) => {
   res.render('home',{
-    nombre: 'Vicente',
-    titulo: 'Curso de Node'
+    nombre: 'Berlin',
+    titulo: 'Examen Estructuras'
   });
 })
 app.get('/generic',  (req, res) => {
